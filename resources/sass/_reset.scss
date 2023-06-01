@@ -1,0 +1,226 @@
+:root {
+    --onDarkOverlaySoft: rgba(8, 8, 8, 0.5607843137254902);
+    --onDarkOverlayHard: rgba(8, 8, 8, 0.9019607843137255);
+    --textPrimary: #171717;
+    --textSecondary: #707070;
+    --textTertiary: #b3b3b3;
+    --textParagraph: #363636;
+    --textAccent: #118cdf;
+    --textAccentGradient: linear-gradient(75.33deg, #12c2f3, #2281e0);
+    --textPositive: #1a9e32;
+    --textWarning: #f55d05;
+    --textNegative: #ff293e;
+    --textAccentSecondary: #ff1f78;
+    --textAccentGradientSecondary: linear-gradient(75.33deg, #ff94c9, #f00563);
+    --onDarkTextPrimary: #f9f9f9;
+    --onDarkTextSecondary: #949494;
+    --onDarkTextTertiary: #4e4e4e;
+    --onDarkTextParagraph: #c7c7c7;
+    --onDarkTextAccent: #52baff;
+    --onDarkTextAccentGradient: linear-gradient(75.33deg, #4ad6fc, #389afc);
+    --onDarkTextPositive: #24b23e;
+    --onDarkTextWarning: #ff7024;
+    --onDarkTextNegative: #ff3d51;
+    --onDarkTextAccentSecondary: #ff8fbc;
+    --onDarkTextAccentGradientSecondary: linear-gradient(75.33deg, #ffb2e5, #ff4791);
+    --onLightTextPrimary: #171717;
+    --onLightTextSecondary: #707070;
+    --onLightTextTertiary: #b3b3b3;
+    --onLightTextParagraph: #363636;
+    --onLightTextAccent: #118cdf;
+    --onLightTextAccentGradient: linear-gradient(75.33deg, #12c2f3, #2281e0);
+    --onLightTextPositive: #1a9e32;
+    --onLightTextWarning: #f55d05;
+    --onLightTextNegative: #ff293e;
+    --onLightTextAccentSecondary: #ff4791;
+    --onLightTextAccentGradientSecondary: linear-gradient(75.33deg, #ff94c9, #f00563);
+    --inverseTextPrimary: #f9f9f9;
+    --inverseTextSecondary: #949494;
+    --inverseTextTertiary: #4e4e4e;
+    --inverseTextParagraph: #c7c7c7;
+    --surfaceSolidDefault: #171717;
+    --surfaceSolidPrimary: #f5f5f5;
+    --surfaceSolidSecondary: #ececec;
+    --surfaceSolidTertiary: #ddd;
+    --surfaceSolidCard: #fff;
+    --surfaceTransparentPrimary: rgba(8, 8, 8, 0.03137254901960784);
+    --surfaceTransparentSecondary: rgba(8, 8, 8, 0.06);
+    --surfaceTransparentTertiary: rgba(8, 8, 8, 0.12);
+    --surfaceTransparentCard: #fff;
+    --surfaceAccent: #199af0;
+    --surfaceAccentGradient: linear-gradient(75.33deg, #12c2f3, #2b8ced);
+    --surfacePositive: #1a9e32;
+    --surfaceWarning: #fa5f05;
+    --surfaceNegative: #ff293e;
+    --surfaceClear: transparent;
+    --surfaceAccentSecondary: #ff4791;
+    --surfaceAccentGradientSecondary: linear-gradient(75.33deg, #fc95da, #ff1f78);
+    --onDarkSurfaceSolidDefault: #fff;
+    --onDarkSurfaceSolidPrimary: #171717;
+    --onDarkSurfaceSolidSecondary: #262626;
+    --onDarkSurfaceSolidTertiary: #363636;
+    --onDarkSurfaceSolidCard: #171717;
+    --onDarkSurfaceTransparentPrimary: hsla(0, 0%, 100%, 0.06);
+    --onDarkSurfaceTransparentSecondary: hsla(0, 0%, 100%, 0.12);
+    --onDarkSurfaceTransparentTertiary: hsla(0, 0%, 100%, 0.2);
+    --onDarkSurfaceTransparentCard: hsla(0, 0%, 100%, 0.058823529411764705);
+    --onDarkSurfaceAccent: #199af0;
+    --onDarkSurfaceAccentGradient: linear-gradient(75.33deg, #12c2f3, #2b8ced);
+    --onDarkSurfacePositive: #24b23e;
+    --onDarkSurfaceWarning: #ff7024;
+    --onDarkSurfaceNegative: #ff293e;
+    --onDarkSurfaceClear: transparent;
+    --onDarkSurfaceAccentSecondary: #ff4791;
+    --onDarkSurfaceAccentGradientSecondary: linear-gradient(75.33deg, #fc95da, #ff1f78);
+    --onLightSurfaceSolidDefault: #171717;
+    --onLightSurfaceSolidPrimary: #f5f5f5;
+    --onLightSurfaceSolidSecondary: #ececec;
+    --onLightSurfaceSolidTertiary: #ddd;
+    --onLightSurfaceSolidCard: #f7f7f7;
+    --onLightSurfaceTransparentPrimary: rgba(8, 8, 8, 0.03137254901960784);
+    --onLightSurfaceTransparentSecondary: rgba(8, 8, 8, 0.06);
+    --onLightSurfaceTransparentTertiary: rgba(8, 8, 8, 0.12);
+    --onLightSurfaceTransparentCard: #fff;
+    --onLightSurfaceAccent: #199af0;
+    --onLightSurfaceAccentGradient: linear-gradient(75.33deg, #12c2f3, #2b8ced);
+    --onLightSurfacePositive: #1a9e32;
+    --onLightSurfaceWarning: #fa5f05;
+    --onLightSurfaceNegative: #ff293e;
+    --onLightSurfaceClear: transparent;
+    --onLightSurfaceAccentSecondary: #ff4791;
+    --onLightSurfaceAccentGradientSecondary: linear-gradient(75.33deg, #fc95da, #ff1f78);
+    --backgroundPrimary: #f9f9f9;
+    --darkBackgroundPrimary: #080808;
+    --lightBackgroundPrimary: #f9f9f9;
+    --inverseBackgroundPrimary: #080808;
+    --skeletonGradient: linear-gradient(
+        90deg,
+        rgba(8, 8, 8, 0.09),
+        rgba(8, 8, 8, 0.08) 6.25%,
+        rgba(8, 8, 8, 0.05) 12.5%,
+        rgba(8, 8, 8, 0.01) 25%,
+        rgba(8, 8, 8, 0.05) 37.5%,
+        rgba(8, 8, 8, 0.08) 43.75%,
+        rgba(8, 8, 8, 0.09) 50%,
+        rgba(8, 8, 8, 0.08) 56.25%,
+        rgba(8, 8, 8, 0.05) 62.5%,
+        rgba(8, 8, 8, 0.01) 75%,
+        rgba(8, 8, 8, 0.05) 87.5%,
+        rgba(8, 8, 8, 0.08) 93.75%,
+        rgba(8, 8, 8, 0.09)
+    );
+    --skeletonGradientLighter: linear-gradient(
+        90deg,
+        rgba(8, 8, 8, 0.36),
+        rgba(8, 8, 8, 0.32) 6.25%,
+        rgba(8, 8, 8, 0.2) 12.5%,
+        rgba(8, 8, 8, 0.04) 25%,
+        rgba(8, 8, 8, 0.2) 37.5%,
+        rgba(8, 8, 8, 0.32) 43.75%,
+        rgba(8, 8, 8, 0.36) 50%,
+        rgba(8, 8, 8, 0.08) 56.25%,
+        rgba(8, 8, 8, 0.2) 62.5%,
+        rgba(8, 8, 8, 0.04) 75%,
+        rgba(8, 8, 8, 0.2) 87.5%,
+        rgba(8, 8, 8, 0.32) 93.75%,
+        rgba(8, 8, 8, 0.36)
+    );
+    --whitePrimary: #f9f9f9;
+    --whiteSecondary: #949494;
+    --whiteTertiary: #4e4e4e;
+    --blackPrimary: #171717;
+    --blackSecondary: #707070;
+    --blackTertiary: #b3b3b3;
+    --buttonBlack: #171717;
+    --buttonBlackSecondary: rgba(8, 8, 8, 0.06);
+    --buttonWhite: #fff;
+    --buttonWhiteSecondary: hsla(0, 0%, 100%, 0.12);
+    --text: #171717;
+    --primary: #171717;
+    --secondary: #707070;
+    --tertiary: #b3b3b3;
+    --paragraph: #363636;
+    --background: #f9f9f9;
+    --accent: #118cdf;
+    --success: #1a9e32;
+    --warning: #f55d05;
+    --critical: #ff293e;
+    --surfaceLiquid01: rgba(8, 8, 8, 0.03137254901960784);
+    --surfaceLiquid02: rgba(8, 8, 8, 0.06);
+    --surfaceLiquid03: rgba(8, 8, 8, 0.12);
+    --surfaceSolid01: #f5f5f5;
+    --surfaceSolid02: #ececec;
+    --surfaceSolid03: #ddd;
+    --surfaceCard: #fff;
+    --buttonSecondary: rgba(8, 8, 8, 0.06);
+    --buttonAccent: #118cdf;
+    --buttonSuccess: #1a9e32;
+    --buttonWarning: #fa5f05;
+    --buttonCritical: #ff293e;
+    --backgroundColor: #f9f9f9;
+}
+html,
+body {
+    height: 100%;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif !important;
+    font-size: 16px;
+    color: #000000;
+    font-display: swap;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-container {
+    min-height: 400px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+h4,
+h6 {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+img {
+    border: none;
+}
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+}

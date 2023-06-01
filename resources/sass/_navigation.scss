@@ -1,0 +1,20 @@
+.top-navigation {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .top-menu {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        li {
+            a {
+                &:hover {
+                    color: inherit;
+                    border-bottom: 0px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
